@@ -1,0 +1,20 @@
+name = "my-app-1"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+ [vars]
+ DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYjI2YjhmODMtNTA0Zi00ZjdlLWExN2MtOTFjYzAyZWVlMmFkIiwidGVuYW50X2lkIjoiYTg1NTYwYzY1N2Y1YTRmNGJjMjY0MzQzMTE2N2JkYmYxMGE2NWNmZDZkZTY1OGI3NTVhMmQ4YmU3YTI5OGM0NSIsImludGVybmFsX3NlY3JldCI6IjZmMzViNDBkLTUxNWQtNDA0Yi04MDIyLTBmYjg5OWIyYjgzYiJ9.ePWd-Qk9P282j0nqQFRh9jCHrd0rdFYaK2C3Wi6He7c"
